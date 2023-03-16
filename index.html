@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <title>Weather Api</title>
+</head>
+<body>  
+     <section class="input-container">
+        <div class="container">
+          <h1 class="main-header">Weather Aplication</h1>
+          <form>
+            <input type="text" placeholder="Search">
+            <button type="submit">SUBMIT</button>
+          </form>
+          <button onclick="hideContent()" class="exit-button">Hide Content</button>
+          <span class="input-err"></span>
+        </div>
+      </section>
+      <section class="city-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+    <script src="static/js/app.js"></script>  
+</body>
+</html>      
+
